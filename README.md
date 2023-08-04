@@ -1,11 +1,11 @@
 ## RabbitMQ test
 
-- Run rabbitmq (using docker)
+- Run rabbitmq (using docker).
 ```
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management
 ```
 
-- Run the service one
+- Run the service one.
 ```
 cd service-one
 ```
